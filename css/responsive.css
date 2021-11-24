@@ -1,0 +1,32 @@
+@media (max-width: 885px) {
+    .contact__list {
+        flex-direction: column;
+        justify-content: center;
+        align-items: baseline;
+        align-content: center;
+    }
+    .contact__colomn {
+        padding-left: 3.5em;
+        margin: 0;
+    }
+}
+
+@media (max-width: 750px) {
+    .nav__list,
+    .logo__wrapper {
+        width: calc(100% / 12 * 7 - 30px);
+    }
+    .menu {
+        justify-content: center;
+    }
+    .intro__name {
+        font-size: 34px;
+    }
+    .job__title {
+        font-size: 11px;
+        letter-spacing: 2.6px;
+    }
+    .intro__wrapper {
+        text-align: center;
+    }
+}

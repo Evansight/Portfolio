@@ -374,7 +374,6 @@ li {
     height: 75px;
     left: 0;
     right: 0;
-    background-color: ;
 }
 
 .empty__prj {
@@ -430,6 +429,7 @@ Contact
 }
 
 .colomn__item {
+    width: 320px;
     padding: 1.5em;
     position: relative;
 }

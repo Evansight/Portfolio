@@ -5,7 +5,7 @@
         align-items: center;
     }
     .contact__colomn {
-        padding-left: 3.5em;
+        padding-left: 4.5em;
         margin: 0;
     }
     .intro__name {
@@ -18,6 +18,13 @@
 }
 
 @media (max-width: 750px) {
+    .contact__me {
+        padding: 4px 12px;
+        font-size: .9rem;
+    }
+    .contact__me::before {
+        display: none;
+    }
     .logo__wrapper {
         margin-right: 0;
         align-self: center;
@@ -51,7 +58,7 @@
         align-items: center;
     }
     .projects__item {
-        width: 65%;
+        width: 49%;
         margin-bottom: 20px;
     }
     .empty__prj {
@@ -85,5 +92,14 @@
     }
     .nav__list-item {
         margin: 0 20px;
+    }
+    .colomn__item {
+        padding: 1.1rem .4rem;
+    }
+    .projects__item {
+        width: 78%;
+    }
+    .contacts {
+        padding: 10vh 0;
     }
 }

@@ -49,12 +49,11 @@ anchors.forEach(function(item) {
 // fixed header
 window.onscroll = function(ev) {
     let element = document.querySelector('.header');
-    element.style.height = 95 + 'px';
     let elem = document.querySelector('.photo');
     let name = document.querySelector('.intro__name');
     let titl = document.querySelector('.job__title');
 
-    if (window.scrollY > element.scrollHeight) {
+    if (window.scrollY >= (element.offsetHeight - 11)) {
         element.classList.add('fixed');
         elem.classList.add('fix__photo');
         name.classList.add('fix__name');

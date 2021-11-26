@@ -416,16 +416,19 @@ Contact
     background-color: rgba(255, 253, 253, 0.466);
 }
 
+.contact__inner {
+    display: flex;
+}
+
 .contact__list {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     padding: 3em 0 6em;
     position: relative;
 }
 
 .contact__colomn {
-    padding: 0 0 0 4em;
+    padding: 0 0 0 5.5em;
 }
 
 .colomn__item {

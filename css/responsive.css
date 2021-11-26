@@ -1,7 +1,9 @@
 @media (max-width: 885px) {
     .contact__list {
-        flex-direction: column;
         align-items: center;
+    }
+    .contact__inner {
+        flex-direction: column;
     }
     .contact__colomn {
         padding-left: 4.5em;

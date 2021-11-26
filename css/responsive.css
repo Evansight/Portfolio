@@ -1,7 +1,6 @@
 @media (max-width: 885px) {
     .contact__list {
         flex-direction: column;
-        justify-content: center;
         align-items: center;
     }
     .contact__colomn {
@@ -95,7 +94,7 @@
     }
     .colomn__item {
         padding: 1.4rem .4rem;
-        width: 250px;
+        /* width: 250px; */
         font-size: 14px;
     }
     .projects__item {
@@ -103,5 +102,19 @@
     }
     .contacts {
         padding: 10vh 0;
+    }
+}
+
+@media (max-width: 360px) {
+    .colomn__item::before {
+        width: 40px;
+        height: 40px;
+    }
+    .colomn__item {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .contact__colomn {
+        padding-left: 2.5em;
     }
 }

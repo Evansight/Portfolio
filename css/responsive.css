@@ -94,7 +94,9 @@
         margin: 0 20px;
     }
     .colomn__item {
-        padding: 1.1rem .4rem;
+        padding: 1.4rem .4rem;
+        width: 250px;
+        font-size: 14px;
     }
     .projects__item {
         width: 78%;

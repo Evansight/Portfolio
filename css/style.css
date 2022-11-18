@@ -329,6 +329,10 @@ li {
     background-image: url(../img/sunnyjar.jpg);
 }
 
+.project__img.accurate {
+    background-image: url(../img/accurate.jpg);
+}
+
 .description {
     display: flex;
     justify-content: center;

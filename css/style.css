@@ -333,6 +333,22 @@ li {
     background-image: url(../img/accurate.jpg)
 }
 
+.project__img.zeeland {
+    background-image: url(../img/ZeelandLumber-Home.jpg)
+}
+
+.project__img.imk {
+    background-image: url(../img/Home-imk.jpg)
+}
+
+.project__img.vee {
+    background-image: url(../img/veemotorhomes-home.jpg)
+}
+
+.project__img.lysoclear {
+    background-image: url(../img/lysoclear.jpg)
+}
+
 .description {
     display: flex;
     justify-content: center;

@@ -351,6 +351,10 @@ li {
     background-image: url(../img/lysoclear.jpg)
 }
 
+.project__img.artisan {
+    background-image: url(../img/artisan.jpg)
+}
+
 .description {
     display: flex;
     justify-content: center;

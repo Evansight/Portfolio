@@ -330,7 +330,7 @@ li {
 }
 
 .project__img.accurate {
-    background-image: url(../img/accurate.jpg);
+    background-image: url(../img/accurate.jpg)
 }
 
 .description {

@@ -298,6 +298,7 @@ li {
 
 .projects__inner {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-bottom: 2em;
 }
@@ -306,6 +307,7 @@ li {
     width: 31%;
     transition: all .3s;
     position: relative;
+    margin: 20px 0;
 }
 
 .project__img {

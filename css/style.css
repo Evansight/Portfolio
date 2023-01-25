@@ -392,7 +392,7 @@ li {
 
 .projects__item:hover .project__img {
     background-position-y: bottom;
-    transition-duration: 7s;
+    transition-duration: 4s;
 }
 
 .projects__item:hover .description {

@@ -69,7 +69,6 @@ li {
     top: 0;
     width: 100%;
     padding: 1rem 0;
-    padding: 0;
     position: fixed;
     left: 0;
     background-color: #000000e1;
@@ -321,6 +320,10 @@ li {
     transition: all linear .3s;
     position: relative;
     cursor: pointer;
+}
+
+.project__img.dream-house{
+    background-image: url(../img/Design.png);
 }
 
 .project__img.fish_house {

@@ -395,7 +395,7 @@ li {
 
 .projects__item:hover .project__img {
     background-position-y: bottom;
-    transition-duration: 4s;
+    transition-duration: 2s;
 }
 
 .projects__item:hover .description {
@@ -412,6 +412,10 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 20px 0;
+    width: 31%;
+    max-width: 350px;
+
 }
 
 

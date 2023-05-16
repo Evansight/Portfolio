@@ -64,6 +64,7 @@
     }
     .empty__prj {
         height: 413px;
+        width: 49%;
     }
     /* ****** */
     .description {
@@ -100,6 +101,10 @@
         font-size: 14px;
     }
     .projects__item {
+        width: 78%;
+    }
+
+    .empty__prj {
         width: 78%;
     }
     .contacts {

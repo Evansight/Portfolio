@@ -415,7 +415,7 @@ li {
     margin: 20px 0;
     width: 31%;
     max-width: 350px;
-
+    min-height: 413px;
 }
 
 

@@ -1,3 +1,9 @@
+@media (max-width: 972px) {
+    .projects__inner {
+        justify-content: center;
+    }
+}
+
 @media (max-width: 885px) {
     .contact__list {
         align-items: center;

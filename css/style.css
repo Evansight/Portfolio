@@ -298,7 +298,6 @@ li {
 .projects__inner {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     margin-bottom: 2em;
 }
 
@@ -306,7 +305,7 @@ li {
     width: 31%;
     transition: all .3s;
     position: relative;
-    margin: 20px 0;
+    margin: 20px 11px;
 }
 
 .project__img {
@@ -356,6 +355,10 @@ li {
 
 .project__img.artisan {
     background-image: url(../img/artisan.png)
+}
+
+.project__img.tahiti {
+    background-image: url(../img/tahiti.png)
 }
 
 .description {
@@ -412,7 +415,7 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px 0;
+    margin: 20px 11px;
     width: 31%;
     max-width: 350px;
     min-height: 413px;
